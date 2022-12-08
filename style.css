@@ -138,6 +138,10 @@ a:hover {
   font-size: 36px;
 }
 
+.title-page a i {
+  display: none;
+}
+
 /* Main content styles */
 
 .page {
