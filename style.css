@@ -46,3 +46,23 @@ a:hover {
 .button:hover {
   background-color: #00ffff;
 }
+
+/* Title page styles */
+
+.title-page {
+  /* Styles for the title page container */
+}
+
+.title-page h1 {
+  text-align: center;
+  margin: auto 0;
+}
+
+.title-page img {
+  /* Styles for the title page image */
+}
+
+.title-page a {
+  /* Styles for the next page button */
+}
+
