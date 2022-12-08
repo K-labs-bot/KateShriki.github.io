@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #add8e6;
   font-family: Arial, sans-serif;
 }
@@ -47,10 +47,10 @@ a:hover {
   background-color: #00ffff;
 }
 
-/* Title page styles */
+/* Title page styles * /
 
 .title-page {
-  /* Styles for the title page container */
+  /* Styles for the title page container * /
 }
 
 .title-page h1 {
@@ -59,10 +59,89 @@ a:hover {
 }
 
 .title-page img {
-  /* Styles for the title page image */
+  /* Styles for the title page image * /
 }
 
 .title-page a {
-  /* Styles for the next page button */
+  /* Styles for the next page button * /
+}
+
+*/
+
+/* General styles */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00bfff;
+  margin: 20px 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00bfff;
+  text-decoration: underline;
+}
+
+/* Title page styles */
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title-page img {
+  width: 200px;
+}
+
+.title-page a {
+  font-size: 24px;
+}
+
+/* Main content styles */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.page:nth-child(odd) {
+  background-image: url("space-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.page:nth-child(even) {
+  background-image: url("space-2.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
