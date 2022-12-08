@@ -133,10 +133,10 @@ a:hover {
   background-color: #b30000;
 }
 
-.title-page a i {
+.title-page a:before {
+  content: "LAUNCH";
   font-size: 36px;
 }
-
 
 /* Main content styles */
 
