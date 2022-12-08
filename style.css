@@ -121,7 +121,22 @@ a:hover {
 
 .title-page a {
   font-size: 24px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
 }
+
+.title-page a:hover {
+  background-color: #b30000;
+}
+
+.title-page a i {
+  font-size: 36px;
+}
+
 
 /* Main content styles */
 
@@ -143,36 +158,4 @@ a:hover {
   background-image: url("space-2.jpg");
   background-position: center;
   background-size: cover;
-}
-
-/* Title page styles */
-
-.title-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.title-page img {
-  width: 200px;
-}
-
-.title-page a {
-  font-size: 24px;
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ff0000;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.title-page a:hover {
-  background-color: #b30000;
-}
-
-.title-page a i {
-  font-size: 36px;
 }
